@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style type="text/css">
+    
+    body {
+    font-family: monospace;, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #5B3F19, #CF9E76);
+    color: #blue;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar ul li {
+    margin-right: 1em;
+}
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+}
+.navbar ul li a:hover {
+    background-color: #palevioletred;
+    border-radius: 5px;
+}
+.search-bar {
+    display: flex;
+}
+.search-bar input {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.search-bar button {
+    padding: 0.5em;
+    border: none;
+    background-color: #palevioletred;
+    color: #palevioletred;
+    border-radius: 0 5px 5px 0;
+}
+
+.portfolio-intro {
+    text-align: center;
+    margin: 2em 0;
+}
+.login-section {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+.login-form {
+    background-color: #black;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+button[type="submit"], button[type="button"] {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.5em;
+}
+button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+}
+button[type="button"] {
+    background-color: #dc3545;
+    color: #fff;
+}
+.profile-icon {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1em;
+}
+footer {
+    text-align: center;
+    padding: 2em;
+    background-color: #blueviolet;
+}
+.social-media a img {
+    width: 30px;
+    margin: 0 0.5em;
+}
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#index.html">My Profile</a></li>
+                <li><a href="#page2.html">First Quarter</a></li>
+                <li><a href="#page3.html">Second Quarter</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Enter a keyword">
+                <button>Search</button>
+            </div>
+        </nav>
+    </header>	
+    <main>
+        <section class="login-section">
+            <form class="login-form">
+                <div class="form-group">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8T1aAYOEvuH5rVBE4y2aUg8x_Dzs07Cuo8vqGjHvBWQ&s" alt="Profile Icon" class="profile-icon">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+               <a href="#top"><button type="submit">Login</button></a>
+                <button type="button">Cancel</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Social</p>
+        <div class="social-media">
+        <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/62-instagram-512.png" alt="Instagram"></a>
+        </div>
+        <p> 2024 Lerand 9 - Topaz</p>
+
+
+
+    </footer>
+</body>
+</html>
