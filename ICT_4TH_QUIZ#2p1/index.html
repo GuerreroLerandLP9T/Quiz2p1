@@ -11,8 +11,15 @@
     
     body {
     font-family: monospace;, sans-serif;
-    background: linear-gradient(to bottom, #5B3F19, #CF9E76);
+    background: linear-gradient(bottom, #5B3F19, #CF9E76);
     color: #blue;
+
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 .navbar {
     display: flex;
@@ -22,16 +29,10 @@
     padding: 2em;
     position: sticky;
 }
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
 .navbar ul li {
     margin-right: 1em;
 }
-.navbar ul li a {
+.navbar ul li  {
     color: #fff;
     text-decoration: none;
     padding: 0.5em;
@@ -40,17 +41,19 @@
     background-color: #palevioletred;
     border-radius: 5px;
 
-}
 
-
-.portfolio-intro {
-    text-align: center;
-    margin: 2em 0;
 }
 .login-section {
     display: flex;
     justify-content: center;
     margin: 1em 0;
+}
+    
+.portfolio-intro {
+    text-align: center;
+    margin: 2em 0;
+}
+    
 }
 .login-form {
     background-color: #black;
@@ -74,7 +77,7 @@
     border: none;
     border-radius: 5px;
 }
-button[type="submit"], button[type="button"] {
+button[type="submit"],  button[type="button"] {
     padding: 0.5em 1em;
     border: none;
     border-radius: 5px;
@@ -88,15 +91,18 @@ button[type="button"] {
     background-color: #dc3545;
     color: #fff;
 }
-.profile-icon {
-    width: 100px;
-    height: auto;
-    margin-bottom: 1em;
+
 }
 footer {
     text-align: center;
     padding: 2em;
     background-color: #blueviolet;
+}
+}
+.profile-icon {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1em;
 }
 .social-media a img {
     width: 30px;
